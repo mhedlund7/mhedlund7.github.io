@@ -1,0 +1,220 @@
+%-------------------------
+% Resume in Latex
+% Author : Marcus Hedlund (based on Jake's Resume)
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%ADJUST HERE
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-8pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheadingMasters}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Marcus Hedlund} \\ \vspace{1pt}
+    \small
+(612) 669-2313 $|$ \href{mailto:mhedlund@seas.upenn.edu}{\underline{mhedlund@seas.upenn.edu}} $|$ 
+    \href{http://linkedin.com/in/marcushedlund}{\underline{linkedin.com/in/marcushedlund}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheadingMasters
+      {University of Pennsylvania}{Philadelphia, PA}
+      {Bachelor of Science in Engineering in Artificial Intelligence; GPA: 4.00/4.00}{May 2027}{Master of Science in Engineering in Computer and Information Science; GPA: 4.00/4.00}{May 2027}
+    \resumeSubheading
+      {The Blake School}{Minneapolis, MN}
+      {High School Diploma; GPA: 3.98/4.00; ACT: 36}{June 2023}
+      \resumeItemListStart
+        \resumeItem{Sarah Armfield-Hill Award in Mathematics; Cum Laude Society; U.S. Presidential Scholar Candidate}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------RELEVANT COURSEWORK-----------
+\section{Relevant Coursework}
+
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Computer Science Foundations}{: Programming Languages and Techniques II, Introduction to Algorithms, Interactive Computer Graphics, Signal and Information Processing, Automata, Computation, and Complexity} \\
+     \textbf{Artificial Intelligence}{: Artificial Intelligence, Machine Learning, Algorithmic Game Theory, Judgment and Decisions} \\
+     \textbf{Systems}{: Database and Information Systems, Internet and Web Systems,  Operating Systems} \\
+     \textbf{Mathematics}{: Mathematical Foundations of Computer Science, Calculus Part III (Multivariable Calculus), Probability} \\
+     % \textbf{Libraries}{: NumPy, pandas, Matplotlib}
+    }}
+ \end{itemize}
+ 
+ % \begin{itemize}[leftmargin=0.15in, label={}]
+ %    \small{\item{
+ %     \textbf{Computer Science}{: Programming Languages and Techniques II, Introduction to Computer Systems, Introduction to Algorithms, } \\
+ %     \textbf{Artificial Intelligence}{: Artificial Intelligence, Machine Learning, Algorithmic Game Theory} \\
+ %     \textbf{Systems}{: Introduction to Computer Systems, Database and Information Systems, Internet and Web Systems,  Operating Systems Design and Implementation} \\
+ %     \textbf{Mathematics}{: Mathematical Foundations of Computer Science, Automata, Computation, and Complexity, Calculus, Part III (Multivariable Calculus, Probability} \\
+ %     \textbf{Miscellaneous}{: Signal and Information Processing,  Interactive Computer Graphics, Judgment and Decisions, 3D Computer Modeling} \\
+ %     % \textbf{Libraries}{: NumPy, pandas, Matplotlib}
+ %    }}
+ % \end{itemize}
+
+  % \resumeSubHeadingListStart
+  
+  %   \resumeItem{
+  %   % \textbf{Current:}
+  %   CIS 4480 - Operating Systems Design and Implementation, CIS 4600 - Interactive Computer Graphics, ESE 2240 - Signal and Information Processing, NETS 4120 - Algorithmic Game Theory, PSYC 2737 - Judgment and Decisions}
+  % \resumeSubHeadingListEnd
+% 
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading{\textbf{Cloud-based Search Engine} $|$ \emph{CIS 5550 Final Project; Java}}{Nov. 2024 -- Dec. 2024}
+    \resumeItemListStart
+      \resumeItem{Collaborated in a 4-person team to develop a distributed search engine processing 150,000+ web pages. Process included designing a web server, web crawler, distributed kvs, analytics engine, ranker, and frontend.}
+      \resumeItem{Designed sophisticated database architecture with reverse indexing, PageRank calculation, and word frequency and meta data tracking stored using AWS Dynamo DB and S3 for improved scalability and latency.}
+      \resumeItem{Implemented optimization techniques to enhance search quality and performance including Porter stemming, domain deduplication, intelligent caching strategies, and multi-factor ranking.}
+      \resumeItem{Engineered URL filtering to crawl only high-quality HTTPS pages with strict latency and length constraints.}
+    \resumeItemListEnd
+    
+    \resumeProjectHeading{\textbf{Music Exploration Web Application} $|$ \emph{CIS 5500 Final Project; JavaScript}}{Sept. 2024 -- Dec. 2024}
+    \resumeItemListStart
+      \resumeItem{Developed a full-stack music analytics platform in a 4-person team using React, Node.js, and PostgreSQL, integrating Spotify, Billboard, and Kaggle datasets to provide comprehensive music industry insights.}
+      \resumeItem{Optimized complex database queries, reducing query runtimes from up to a minute to under a second through strategic indexing, caching, and query restructuring.}
+    \resumeItem{Created advanced analytics capabilities, including visualizations of audio feature evolution, chart performance tracking, artist similarity recommendations, and curated lists of trending songs, rising artists, and top charters.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------LEADERSHIP-----------
+\section{Leadership Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Developer}{Philadelphia, PA}
+      {UPGRADE}{Sept. 2023 -- Present}
+        \resumeItemListStart
+        \resumeItem{Collaborated in various small teams to develop game elements such as interactive UI/UX for a game's management system and a 2D boss-fight platformer with interactive objects, parallax effects, and custom animations.}
+        \resumeItem{Hosted game jams and speaker events with professors and industry leaders, including Mobius Digital.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Member}{Philadelphia, PA}
+      {SIGGRAPH}{Sept. 2023 -- Present}
+      \resumeItemListStart
+      \resumeItem{Conducted weekly project showcases, providing constructive technical feedback to improve members' skills.}
+      \resumeItem{Evaluated hands-on workshops exploring the graphics pipeline including texturing, lighting, and shaders.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C, C++, C\#, OCaml, SQL (PostgreSQL), JavaScript, HTML/CSS} \\
+     \textbf{Frameworks}{: React, Node.js, PyTorch, Unity} \\
+     \textbf{Developer Tools}{: Git, AWS, LaTeX} \\
+     \textbf{Libraries}{: NumPy, pandas, Matplotlib}
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+
+%-----------Additional Information-----------
+\section{Additional Information}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Dual Citizenship}{: Swedish and American} \\
+     \textbf{Swiss Semester}{: Skied, wet-gorged, ice-climbed, and studied abroad in Zermatt, Switzerland} \\
+     \textbf{Other}{: Avid hockey player, high school varsity soccer captain, and dedicated pianist}}}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
