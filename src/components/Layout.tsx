@@ -24,6 +24,7 @@ const NavList = styled.ul`
   padding: 0 1rem;
   max-width: 1200px;
   margin: 0 auto;
+  margin-left: 2rem;
   justify-content: flex-start;
 
   @media (min-width: 768px) {
