@@ -82,10 +82,10 @@ Error generating stack: `+s.message+`
   flex-wrap: wrap;
   gap: 1rem;
   margin: 0;
-  padding: 0;
+  padding: 0 1rem;
   max-width: 1200px;
   margin: 0 auto;
-  justify-content: center;
+  justify-content: flex-start;
 
   @media (min-width: 768px) {
     gap: 2rem;
