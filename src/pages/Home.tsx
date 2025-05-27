@@ -212,7 +212,7 @@ const Home = () => {
         <LeftSidebar>
           <ProfileContainer>
             <ProfileImage 
-              src="/images/profile.jpg" 
+              src="/images/profile.JPG" 
               alt="Marcus Hedlund"
             />
             <Name>Marcus Hedlund</Name>
