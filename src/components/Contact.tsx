@@ -2,33 +2,24 @@ import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
 
 const Section = styled.section`
-  padding: 1.5rem;
+  padding: 1rem;
   color: white;
-  background: rgba(10, 10, 12, 0.85);
+  background: rgba(18, 18, 18, 0.7);
   backdrop-filter: blur(10px);
   border-radius: 15px;
-  margin: 0 auto;
+  margin: 1rem auto 0;
   max-width: 1200px;
-`;
-
-const Title = styled.h2`
-  font-size: 2.25rem;
-  margin-bottom: 1rem;
-  text-align: center;
-  font-weight: 500;
-  letter-spacing: -0.01em;
 `;
 
 const ContactContainer = styled.div`
   display: flex;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 0.75rem;
   padding: 0.5rem;
 `;
 
 const ContactLink = styled.a`
-  color: #0066cc;
+  color: #b794f4;
   text-decoration: none;
   font-size: 1.15rem;
   display: flex;
@@ -39,7 +30,7 @@ const ContactLink = styled.a`
   letter-spacing: -0.01em;
 
   &:hover {
-    color: #0052a3;
+    color: #9f7aea;
   }
 
   svg {
@@ -48,21 +39,9 @@ const ContactLink = styled.a`
   }
 `;
 
-const AdditionalInfo = styled.div`
-  margin-top: 3rem;
-  text-align: center;
-  font-size: 1.1rem;
-  opacity: 0.9;
-`;
-
-const InfoItem = styled.p`
-  margin: 0.5rem 0;
-`;
-
 const Contact = () => {
   return (
     <Section>
-      <Title>Contact Me</Title>
       <ContactContainer>
         <ContactLink href="mailto:mhedlund@seas.upenn.edu">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">

@@ -2,34 +2,28 @@ import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
 
 const Section = styled.section`
-  padding: 2rem;
-  color: white;
-  background: rgba(10, 10, 12, 0.85);
-  backdrop-filter: blur(10px);
-  border-radius: 15px;
-  margin: 0 auto;
-  max-width: 1200px;
+  margin-bottom: 2rem;
 `;
 
 const Title = styled.h2`
   font-size: 2.25rem;
   margin-bottom: 1.5rem;
-  text-align: center;
   font-weight: 500;
   letter-spacing: -0.01em;
 `;
 
 const EducationCard = styled(motion.div)`
-  background: rgba(8, 8, 10, 0.7);
+  background: rgba(18, 18, 18, 0.7);
   padding: 1.5rem;
   border-radius: 10px;
   margin-bottom: 1rem;
+  backdrop-filter: blur(10px);
 `;
 
 const School = styled.h3`
   font-size: 1.5rem;
   margin-bottom: 0.3rem;
-  color: #0066cc;
+  color: #b794f4;
   font-weight: 500;
   letter-spacing: -0.01em;
 `;

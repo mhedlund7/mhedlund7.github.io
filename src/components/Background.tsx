@@ -38,7 +38,7 @@ const Background = () => {
       width: '100vw',
       height: '100vh',
       zIndex: -1,
-      background: 'linear-gradient(to bottom, #0a0a0c, #0f0f12)'
+      background: 'linear-gradient(to bottom, #1a1a1a, #141414)'
     }}>
       <Canvas
         style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}

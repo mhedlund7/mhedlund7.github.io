@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 
 const NavBar = styled.nav`
   padding: 1rem 2rem;
-  background-color: rgba(10, 10, 12, 0.95);
+  background-color: rgba(18, 18, 18, 0.95);
   backdrop-filter: blur(10px);
   position: fixed;
   top: 0;
@@ -55,7 +55,6 @@ const Layout = () => {
       <NavBar>
         <NavList>
           <li><NavItem to="/">Home</NavItem></li>
-          <li><NavItem to="/projects">Projects</NavItem></li>
           <li>
             <ExternalLink 
               href="https://linkedin.com/in/marcushedlund" 
