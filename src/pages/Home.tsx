@@ -13,6 +13,8 @@ const Container = styled.div`
   display: flex;
   padding-top: 2rem;
   flex-direction: column;
+  overflow-x: hidden;
+  box-sizing: border-box;
 
   @media (min-width: 1024px) {
     flex-direction: row;
@@ -21,16 +23,18 @@ const Container = styled.div`
 
 const LeftSidebar = styled.div`
   width: 100%;
-  padding: 1rem 2rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
 
   @media (min-width: 1024px) {
     width: 400px;
     height: calc(100vh - 4rem);
     position: fixed;
     overflow-y: auto;
+    padding: 1rem 2rem;
     -ms-overflow-style: none;
     scrollbar-width: none;
     
@@ -47,12 +51,14 @@ const LeftSidebar = styled.div`
 
 const RightContent = styled.div`
   flex: 1;
-  padding: 2rem;
+  padding: 1rem;
   min-height: calc(100vh - 4rem);
   overflow-y: auto;
+  box-sizing: border-box;
 
   @media (min-width: 1024px) {
     margin-left: 400px;
+    padding: 2rem;
   }
 `;
 
@@ -63,10 +69,12 @@ const ProfileContainer = styled.div`
   margin-bottom: 1rem;
   width: 100%;
   max-width: 300px;
+  box-sizing: border-box;
 `;
 
 const ProfileImage = styled.img`
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   height: auto;
   border-radius: 15px;
   margin-bottom: 1rem;
@@ -85,10 +93,16 @@ const Name = styled.h2`
 
 const Content = styled(motion.div)`
   background: rgba(18, 18, 18, 0.7);
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 15px;
   backdrop-filter: blur(10px);
   margin-bottom: 2rem;
+  box-sizing: border-box;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    padding: 2rem;
+  }
 `;
 
 const Title = styled.h1`
@@ -99,12 +113,16 @@ const Title = styled.h1`
 `;
 
 const Description = styled.p`
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 2rem;
   font-weight: 400;
   letter-spacing: -0.01em;
   color: rgba(255, 255, 255, 0.9);
+
+  @media (min-width: 768px) {
+    font-size: 1.25rem;
+  }
 
   &:last-child {
     margin-bottom: 0;
@@ -139,8 +157,14 @@ const ProjectsGrid = styled.div`
 const ProjectCard = styled(motion.div)`
   background: rgba(18, 18, 18, 0.7);
   border-radius: 15px;
-  padding: 1.5rem;
+  padding: 1rem;
   backdrop-filter: blur(10px);
+  box-sizing: border-box;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    padding: 1.5rem;
+  }
 `;
 
 const ProjectTitle = styled.h3`
