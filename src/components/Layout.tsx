@@ -22,9 +22,8 @@ const NavList = styled.ul`
   gap: 1rem;
   margin: 0;
   padding: 0 1rem;
-  max-width: 1200px;
   margin: 0 auto;
-  margin-left: 2rem;
+  margin-left: 0.5 rem;
   justify-content: flex-start;
 
   @media (min-width: 768px) {
