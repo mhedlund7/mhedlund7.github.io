@@ -63,7 +63,7 @@ const Education = () => {
         transition={{ duration: 0.5, delay: 0.2 }}
       >
         <School>The Blake School</School>
-        <Details>High School Diploma • GPA: 3.98/4.00 • ACT: 36 • June 2023</Details>
+        <Details>High School Diploma • Sarah Armfield-Hill Award in Mathematics • Cum Laude Society •U.S. Presidential Scholar Candidate• ACT: 36 • June 2023</Details>
       </EducationCard>
     </Section>
   );
