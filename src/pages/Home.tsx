@@ -255,17 +255,14 @@ const Home = () => {
               Hello! I'm Marcus.
             </Description>
             <Description>
-              I'm a dual-degree student at the University of Pennsylvania, pursuing a Bachelor's in Artificial Intelligence 
-              and Master's in Computer and Information Science. My passion lies at the intersection of AI, systems, 
-              and web development, where I strive to create innovative solutions to complex problems.
+            I'm a dual-degree student at the University of Pennsylvania, pursuing a Bachelor's in Artificial Intelligence and a Master's in Computer and Information Science.
             </Description>
             <Description>
-              Currently, I'm working as a research assistant with Professor Chris Callison-Burch at the University of 
-              Pennsylvania, focusing on advancing the capabilities of large language models and their applications.
+            Currently, I'm working as a research assistant with Professor Chris Callison-Burch at the University of 
+            Pennsylvania.
             </Description>
             <Description>
-              Through my diverse portfolio of projects spanning operating systems, graphics, and distributed systems, 
-              I've developed a strong foundation in both theoretical computer science and practical software engineering. 
+            Through my diverse portfolio of projects spanning operating systems, graphics, and distributed systems, I've developed a strong foundation in both theoretical computer science and practical software engineering.
               I aim to continue pushing the boundaries of what's possible in AI and systems development, while maintaining 
               a focus on creating robust, scalable solutions.
             </Description>
